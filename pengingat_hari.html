@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>Kalender 
+Sederhana</title>
+  <script>
+  function reloadPage()
+  {
+  location.reload();
+  }
+  </script>
+ </head>
+ <body>
+  <h3>Kalender sederhana</h3>
+  <br>
+  <p id="demo">.........</p>
+  <button onclick="myFunction()">Klik 
+disini untuk melihat!</button>
+  <script>
+  function myFunction()
+  {
+  var d = new Date();
+  var x =
+  document.getElementById("demo");
+  x.innerHTML=d.toDateString();
+  }
+  </script>
+<input type="button" value="Segarkan" 
+onclick="reloadPage()">
+ </body>
+</html>
