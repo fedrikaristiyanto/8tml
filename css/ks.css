@@ -1,0 +1,14 @@
+body {
+	background-color: silver;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+}
+
+p {
+	color: red;
+	font-family: courier new;
+	font-size: 20px;
+}
