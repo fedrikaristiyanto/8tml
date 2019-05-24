@@ -21,6 +21,8 @@ function drawClock() {
  ctx.fillStyle = 'white';
  ctx.fill();
 
+ grad = ctx.createRadialGradient(0, 0, radius * 0.95, 0, 0, radius * 1.05);
+
  ctx.arc(0, 0, radius, 0 , 2 * Math.PI);
  ctx.fillStyle = "yellow";
  ctx.fill();
