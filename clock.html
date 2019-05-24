@@ -11,6 +11,11 @@ radius = radius * 0.90
 drawClock();
 
 function drawClock() {
+ drawFace(ctx, radius);
+}
+
+ function drawFace(ctx, radius) {
+
  ctx.arc(0, 0, radius, 0 , 2 * Math.PI);
  ctx.fillStyle = "yellow";
  ctx.fill();
