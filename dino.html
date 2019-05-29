@@ -1,0 +1,41 @@
+<html>
+klik en tombol ndok nisor iki !! .<br />
+<button onclick="myFunction()">Tampilno</button>
+
+<br />
+<p style="color:white;background:red" id="Tampilkan Hari">
+</>
+<script>
+function myFunction()
+{
+var x;
+var d=new Date().getDay();
+switch (d)
+  {
+  case 0:
+    x="Sak iki dino MINGGU";
+    break;
+  case 1:
+    x="Sekarang Hari SENIN";
+    break;
+  case 2:
+    x="SELOSO";
+    break;
+  case 3:
+    x="Sekarang Hari RABU";
+    break;
+  case 4:
+    x="Sekarang Hari KAMIS";
+    break;
+  case 5:
+    x="Sekarang Hari JUM'AT";
+    break;
+  case 6:
+    x="Sak iki dino SABTU, seng nduwe gendakan malmingan, seng gak nduwe ndang golek ! (≧▽≦)";
+    break;
+  }
+document.getElementById("Tampilkan Hari").innerHTML=x;
+}
+</script>
+
+</html>
