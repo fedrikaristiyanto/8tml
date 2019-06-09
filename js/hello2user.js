@@ -1,2 +1,2 @@
 var user = prompt("Please enter your name!");
-alert("Hello ," + user)
+alert("Hello, " + user)
