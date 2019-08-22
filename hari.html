@@ -1,5 +1,10 @@
 <!DOCTYPE html>
 <html>
+<head>
+<title>pengingat hari</title>
+<meta charset="utf-8">
+</head>
+<body>
 klik en tombol ndok nisor iki !! .<br />
 <button onclick="myFunction()">Tampilno</button>
 
@@ -14,16 +19,16 @@ var d=new Date().getDay();
 switch (d)
   {
   case 0:
-    x="MINGGU";
+    x="Sekarang Hari MINGGU";
     break;
   case 1:
-    x="SENIN";
+    x="Sekarang Hari SENIN";
     break;
   case 2:
-    x="SELASA";
+    x="Sekarang Hari SELASA";
     break;
   case 3:
-    x="RABU";
+    x="Sekarang Hari RABU";
     break;
   case 4:
     x="Sekarang Hari KAMIS";
@@ -32,11 +37,12 @@ switch (d)
     x="Sekarang Hari JUM'AT";
     break;
   case 6:
-    x="Sak iki dino SABTU";
+    x="Sekarang Hari SABTU";
     break;
   }
 document.getElementById("Tampilkan Hari").innerHTML=x;
 }
 </script>
+</body>
 
 </html>
