@@ -1,6 +1,6 @@
 # Welcome :-)
 
-[clock](/8tml/webapp/clock.html)
+[clock](https://fedrikaristiyanto.github.io/8tml/webapp/clock.html)
 
 
 :smiley:
